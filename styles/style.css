@@ -157,3 +157,77 @@ section.sliderImg div.sliderContainer div.btncontainer .btn-choosen{
     background-color: var(--primaryColor);
     border: 0px;
 }
+
+section.bundels div.pickpara p{
+    margin: 10px 0 0 10px;
+    font-size: 25px;
+}
+section.bundels div.bundelsOptions {
+    width: 50%;
+    margin: auto;
+}
+section.bundels div.bundelsOptions .switchButton{
+    float: right;
+    background-color: var(--primaryColor);
+    padding: 3px;
+    border-radius: 10px;
+}
+section.bundels div.bundelsOptions .switchButton button{
+    background-color: transparent;
+    padding: 3px;
+    border: 0;
+}
+section.bundels div.bundelsOptions .switchButton button.choosen{
+    background-color: var(--mainWhite);
+    border-radius: 8px;
+}
+
+section.bundels div.bundelsOptions p.bundlechoose{
+    text-align: center;
+    margin: 40px 0 20px 10px;
+    font-size: 25px;
+}
+section.bundels div.bundelsOptions div.bundle .sliderControls {
+    margin: 10px 0;
+}
+section.bundels div.bundelsOptions div.bundle .sliderControls ol{
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+}
+section.bundels div.bundelsOptions div.bundle .sliderControls ol li{
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1000;
+    display: inline-table;
+    background:hsl(120, 20%, 83%);
+    border: 3px solid var(--primaryColor);
+    margin: 2px 0;
+}
+section.bundels div.bundelsOptions div.bundle .sliderControls ol li p{
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;  
+}
+section.bundels div.bundelsOptions div.bundle p.bundletitle{
+    font-size: 20px;
+}
+
+section.bundels div.bundelsOptions div.btn-checkprice {
+    display: flex;
+    margin: 20px 0;
+}
+section.bundels div.bundelsOptions div.btn-checkprice button {
+    margin: auto;
+    width: 80%;
+    background-color: var(--primaryColor);
+    border: none;
+    border-radius: 8px;
+    padding: 15px 8px;
+    color: var(--mainWhite);
+    font-size: 20px;
+}
