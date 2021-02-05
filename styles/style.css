@@ -381,3 +381,87 @@ section.terms .sliderControls ul li:before {
     margin: 0 1.5rem;
     background-color: var(--primaryColor);
 }
+
+section.socialIcons {
+    padding: 80px 10px;
+}
+section.socialIcons div p.socialIconsTitle,
+section.socialIcons div p.socialIconsSubTitle{
+    text-align: center;
+}
+section.socialIcons div p.socialIconsTitle{
+    font-size: 35px;
+}
+section.socialIcons div p.socialIconsSubTitle{
+    margin: 20px 0;
+    font-size: 30px;
+}
+section.socialIcons .sliderControls ol{
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+}
+section.socialIcons .sliderControls ol li {
+    position: relative;
+    z-index: 1000;
+    display: inline-table;
+}
+section.socialIcons .sliderControls ol li i{
+    font-size: 60px;
+    margin: 0 5px;
+}
+section.socialIcons .sliderControls ol li:nth-child(1){
+    color: #3b5998
+}
+section.socialIcons .sliderControls ol li:nth-child(2){
+    color: #00acee;
+}
+section.socialIcons .sliderControls ol li:nth-child(3){
+    color: #c4302b;
+}
+section.socialIcons .sliderControls ol li:nth-child(4){
+    color: #3f729b
+}
+
+footer{
+    margin: 20px 0px 0px 0px;
+    background-color: #222;
+    color: var(--mainWhite);
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+footer div.footerContainer {
+    margin: 0 auto;
+}
+footer div {
+    margin: 20px 40px;
+}
+footer div p.title {
+    font-size: 22px;
+}
+footer div ul {
+    list-style: none;
+}
+footer div.rightContent ol {
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+}
+footer div ul  li{
+    font-size: 16px;
+}
+footer div.rightContent ol  li {
+    position: relative;
+    z-index: 1000;
+    display: inline-table;
+    margin: 0 5px;
+    font-size: 25px;
+}
+footer div.rightContent p:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+footer div.rightContent p:not(:first-child) {
+    margin: 20px 0;
+}
