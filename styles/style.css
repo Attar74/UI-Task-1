@@ -1,0 +1,75 @@
+html{
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.clearfix {
+    overflow: auto;
+}
+:root {
+    --primaryColor: #039c9c;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #faf9f8;
+}
+html,body,h1,h2,h3,h4,h5,h6,li,td,p,a,th,input {
+    font-family: 'Almarai', sans-serif;
+} 
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,object,iframe,
+blockquote, pre, sub, sup, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,small,strong,var,b,i,dl,dt,
+dd,ol, ul,li, fieldset, form, label, legend, table,
+caption,tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption,
+figure, footer, header, hgroup, menu,nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    background-repeat: repeat-x repeat-y;
+}
+div.mainWrapper div.header{
+    margin: 5px 20px 18px 20px;
+}
+div.mainWrapper div.header nav.navbar span i{
+    font-size: 30px;
+    margin: 5px;
+    color: var(--primaryColor)
+}
+div.mainWrapper div.header nav.navbar span.navright{
+    float: right;
+}
+div.mainWrapper div.header nav.navbar span.navcenter a.logo{
+    background: url("https://media1.giphy.com/media/Vh3XPFr0Fy6ucMQeWB/giphy_s.gif") center center no-repeat #fff;
+    width: 60px;
+    height: 68px;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    background-size: cover
+}
+div.header nav.navbarWithMdScreen {
+    display: none;
+}
