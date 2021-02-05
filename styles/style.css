@@ -73,3 +73,87 @@ div.mainWrapper div.header nav.navbar span.navcenter a.logo{
 div.header nav.navbarWithMdScreen {
     display: none;
 }
+section.sliderImg div.sliderContainer div.chosen{
+    position: relative;
+    text-align: center;
+    color: var(--mainWhite);
+}
+section.sliderImg div.sliderContainer div.chosen img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage p {
+    margin: 10px 0;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage p.text1OverImage{
+    font-size: 20px;
+    font-weight: 800;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage p.text2OverImage{
+    font-size: 18px;
+    font-weight: 600;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage p.text3OverImage{
+    font-size: 16px;
+    font-weight: 400;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage div.btncontainer{
+    margin: 5px 0 0 0;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage div.btncontainer button{
+    margin: 0 5px;
+    border-radius: 10px;
+    padding: 5px 40px;
+    font-size: 16px;
+}
+section.sliderImg .sliderControls  ol{
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+}
+section.sliderImg .sliderControls  ol li{
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    z-index: 1000;
+    display: inline-flex;
+}
+section.sliderImg .sliderControls  ol li.choosen{
+    background-color: var(--mainBlack);
+}
+section.sliderImg div.sliderContainer div.btncontainer{
+    width: 100%;
+    display: flex;
+}
+section.sliderImg div.sliderContainer div.btncontainer .btn{
+    /* position: relative; */
+    width: 50%;
+    padding: 10px 20px;
+    background-color: var(--mainWhite);
+    border: 1px solid #847146;
+    font-size: 20px;
+}
+section.sliderImg div.sliderContainer div.btncontainer .btn-choosen{
+    /* position: relative; */
+    width: 50%;
+    padding: 10px 20px;
+    background-color: var(--primaryColor);
+    border: 0px;
+}
