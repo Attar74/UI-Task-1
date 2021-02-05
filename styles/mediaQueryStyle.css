@@ -1,0 +1,70 @@
+@media only screen and (min-width: 700px) {
+    footer div.footerContainer {
+        display: inline-flex;
+        margin: 0 auto;
+        text-align: left;
+    }
+    div.header nav.navbar {
+        display: none;
+    }
+    div.header nav.navbarWithMdScreen {
+        display: block;
+    }
+    div.header{
+        margin: 0 !important;
+    }
+    div.header nav.navbarWithMdScreen{
+        margin-bottom: 20px;
+    }
+    div.header nav.navbarWithMdScreen span{
+        position: relative;
+    }
+    div.header nav.navbarWithMdScreen span img{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        z-index: 1000;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl{
+        list-style: none;
+        text-align:center; 
+        margin-top: 15px;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl li{
+        display: inline-table;
+        margin: 0 12px;
+        vertical-align: center;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl li.search{
+        float: right;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl li.search input{
+        height: 30px;
+        padding: 0 40px 0 5px;
+        margin-right: 10px;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl li.search i{
+        color: #039c9c;
+        border: 2px solid #ddd;
+        padding: 6px;
+    }
+
+  }
+  @media only screen and (min-width: 1000px) {
+    div.mainWrapper div.header .navbarWithMdScreen{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    section.sliderImg div.sliderContainer div.btncontainer,
+    section.knowTheFeautres div.knowTheFeautresTitle,
+    section.terms div.termsTitle,
+    section.terms div.sliderControls,
+    section.bundels div.pickpara {
+        width: 70%;
+        margin: 0 auto;
+    }
+    section.bundels div.pickpara p {
+        margin: 10px 0;
+    }
+  }
+  
